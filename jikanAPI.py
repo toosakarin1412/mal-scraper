@@ -8,7 +8,7 @@ from datetime import datetime
 import logging
 
 
-with open('seeds/anime_url_test.json', 'r') as json_file:
+with open('seeds/anime_url.json', 'r') as json_file:
     url_list = json.load(json_file)
 
 dataFull = []
